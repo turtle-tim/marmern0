@@ -18,7 +18,7 @@ const mConnection=require("mongoose").connection
 
 const app=express()
 const path=require("path")
-const PORT=process.env.PORT|| 3500
+const PORT=25544 || 13160
 
 const{logger,logEvents}=require("./middleware/logger")
 const errorHandler=require("./middleware/errorHandler")
